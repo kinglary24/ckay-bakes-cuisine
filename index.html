@@ -24,8 +24,17 @@
         </nav>
     </header>
     <main>
-        <section class="hero" aria-labelledby="hero-title">
-            <img class="hero-artwork" src="ckay images/new hero image.png" alt="" aria-hidden="true">
+       <section class="hero" aria-labelledby="hero-title">
+     <img
+        class="hero-artwork"
+        src="ckay images/new hero image.png"
+        alt=""
+        aria-hidden="true">
+
+    <video class="hero-video" autoplay muted loop playsinline>
+    <source src="videos/hero cake video 3.webm" type="video/webm">
+</video>
+    
             <div class="hero-content">
                 <p class="baked-text">Baked with</p>
                 <h1 class="hero-title" id="hero-title"><span class="passion">Passion,</span><span class="serve">Serve with <strong>Love</strong></span></h1>
@@ -40,7 +49,7 @@
     </a> 
 </div>
             </div>
-            <div class="cake-container"><img src="ckay images/cake image 4.png" alt="Decorated CKAY celebration cake" class="cake-image"></div>
+
         </section>
         <section class="delights" id="explore" aria-labelledby="delights-title">
             <h2 id="delights-title">Explore Our Delights</h2>
@@ -95,26 +104,63 @@
                 <a href="#cake-collection" class="occasion"><svg viewBox="0 0 48 44" aria-hidden="true"><rect x="7" y="16" width="34" height="23" rx="1"/><path d="M24 16v23M7 23h34M24 16c-13 0-12-13-5-10 3 1 5 5 5 10M24 16c13 0 12-13 5-10-3 1-5 5-5 10"/></svg><span>Just Because</span></a>
             </nav>
         </section>
-        <section class="about-ckay" id="about" aria-label="About CKAY and why choose us">
-            <article class="about-panel">
-                <div class="about-copy">
-                    <h2>About CKAY</h2>
-                    <p>CKAY Cakes &amp; Cuisine is a home of premium cakes, delectable pastries and delicious meals. We are passionate about creating experiences that leave lasting memories. Baked with passion, served with love.</p>
-                    <p class="ckay-signature">Ckay <span aria-hidden="true">♡</span></p>
-                </div>
-                <div class="about-image-wrap"><img src="ckay images/about ckay.png" alt="Chef decorating a CKAY cake"></div>
-                <span class="about-dots" aria-hidden="true"></span>
-            </article>
-            <article class="why-panel">
-                <h2>Why Choose CKAY?</h2>
-                <div class="features-grid">
-                    <div class="feature"><svg viewBox="0 0 52 46" aria-hidden="true"><path d="M5 30h40l-5 8H10Z M9 30c0-10 7-16 17-16s17 6 17 16M14 13 10 4l9 5m9 0 9-5-4 9"/><path d="M18 25h16"/></svg><h3>Quality<br>Ingredients</h3><p>We use only the best<br>ingredients.</p></div>
-                    <div class="feature"><svg viewBox="0 0 52 46" aria-hidden="true"><path d="M26 40 7 21C-3 11 12 2 26 16 40 2 55 11 45 21Z"/></svg><h3>Made With<br>Love</h3><p>Every recipe is prepared<br>with passion and care.</p></div>
-                    <div class="feature"><svg viewBox="0 0 52 46" aria-hidden="true"><path d="M26 4 42 10v12c0 10-7 16-16 20C17 38 10 32 10 22V10Z"/><path d="m19 23 5 5 9-10"/></svg><h3>Hygienic &amp;<br>Safe</h3><p>We maintain the highest<br>standards of hygiene.</p></div>
-                    <div class="feature"><svg viewBox="0 0 58 46" aria-hidden="true"><path d="M7 31h33l6-12h6M17 31a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm28 0a6 6 0 1 0 0 12 6 6 0 0 0 0-12ZM7 20h16v11H7ZM9 16h12M11 12h8"/><path d="M51 8h5m-3-3 3 3-3 3"/></svg><h3>Reliable<br>Delivery</h3><p>We deliver on time,<br>every time.</p></div>
-                </div>
-            </article>
-        </section>
+        <!-- =========================
+     ABOUT CKAY
+========================= -->
+
+<section class="about-ckay">
+
+    <div class="about-content">
+
+        <div class="about-label">
+            <span>ABOUT CKAY</span>
+            <span class="about-line"></span>
+            <span class="about-heart">♡</span>
+        </div>
+
+        <h2>CKay Cakes &amp; Cuisine</h2>
+
+        <h3>
+            Baked with passion,<br>
+            served with love. <span>♡</span>
+        </h3>
+
+        <p>
+            CKay Cakes &amp; Cuisine is a home of premium cakes,
+            delectable pastries and delicious meals. We are passionate
+            about creating experiences that leave lasting memories.
+        </p>
+
+    </div>
+
+
+    <div class="about-images">
+
+    <img src="ckay images/violet cake.png" alt="CKay cake">
+
+    <img src="ckay images/jollof.png" alt="CKay cuisine">
+
+    <img src="ckay images/brown cake 1.png" alt="CKay chocolate cake">
+
+</div>
+
+    </div>
+
+</section>
+          <!-- =========================
+     WHY CHOOSE CKAY
+========================= -->
+
+<section class="why-choose" aria-label="Why Choose CKAY">
+
+    <img
+        src="ckay images/why choose us 4.png"
+        alt="Why Choose CKAY"
+    >
+
+</section>
+
+        
  <section class="whatsapp-cta" aria-labelledby="whatsapp-title">
     <img
         class="whatsapp-logo"
@@ -184,7 +230,7 @@
 </footer>
 
 </main>
-
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
